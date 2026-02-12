@@ -1,0 +1,230 @@
+🧱 PHASE 1 — OOPS + SOLID (Foundation) — 5 DAYS
+Day 1: OOPS Core
+
+Learn + implement:
+
+Class vs Object
+
+Encapsulation
+
+Inheritance
+
+Polymorphism
+
+Composition vs Inheritance ⭐ (Very important)
+
+Goal:
+
+You should be able to design relationships between classes.
+
+Day 2: SOLID Principles
+
+Order:
+
+Single Responsibility
+
+Open Closed
+
+Liskov Substitution
+
+Interface Segregation
+
+Dependency Inversion
+
+Task:
+
+Write BAD code
+
+Refactor to GOOD code
+
+Goal:
+
+Learn to avoid tight coupling.
+
+Day 3: UML + Relationships
+
+Learn:
+
+Association
+
+Aggregation
+
+Composition
+
+Dependency
+
+Practice:
+
+Convert UML → code
+
+Day 4: Clean Code Basics
+
+Study:
+
+God object
+
+Magic numbers
+
+Long functions
+
+Naming conventions
+
+Goal:
+
+Make your code readable like production code.
+
+Day 5: Revision + Mini Design
+
+Design:
+
+👉 Simple Order Management System
+Classes only — no UI.
+
+🏗️ PHASE 2 — DESIGN PATTERNS (Must Know) — 7 DAYS
+
+DO ONLY IMPORTANT ONES.
+
+Day 6: Singleton + Factory
+
+Implement:
+
+Logger Singleton
+
+Notification Factory
+
+Day 7: Strategy Pattern ⭐
+
+Very important.
+
+Examples:
+
+Payment methods
+
+Discount system
+
+Day 8: Observer Pattern ⭐
+
+Example:
+
+Order placed → notify services
+
+Day 9: Decorator Pattern
+
+Example:
+
+Add-ons pricing
+
+Middleware
+
+Day 10: Adapter Pattern
+
+Example:
+
+Third-party API wrapper
+
+Day 11: Combine Patterns
+
+Mini project:
+
+👉 Notification System using Factory + Strategy + Observer
+
+Day 12: Pattern Revision
+
+Explain:
+
+When to use
+
+Why to use
+
+Trade-offs
+
+🧩 PHASE 3 — CORE LLD INTERVIEW PROBLEMS — 10 DAYS
+Day 13–14: Parking Lot System ⭐⭐⭐
+
+MOST IMPORTANT.
+
+Focus:
+
+Slot allocation
+
+Vehicle types
+
+Floors
+
+Extensibility
+
+Day 15: Tic Tac Toe ⭐
+
+Covers:
+
+Game loop
+
+Strategy
+
+State handling
+
+Day 16: Elevator System ⭐⭐
+
+Covers:
+
+Scheduling
+
+Direction logic
+
+Day 17: Library Management System
+
+Good CRUD style design.
+
+Day 18: Splitwise LLD ⭐⭐
+
+Important real-world example.
+
+Day 19: LRU Cache (LLD + DS) ⭐⭐⭐
+
+Must know.
+
+Day 20–21: Refactor + Explain
+
+Practice explaining design OUT LOUD.
+
+🚀 PHASE 4 — ADVANCED INTERVIEW PREP — 8 DAYS
+Day 22: Rate Limiter LLD
+
+Token bucket logic.
+
+Day 23: Logger System Design
+
+Thread-safe singleton.
+
+Day 24: Food Delivery System
+
+Zomato style:
+
+Orders
+
+Restaurants
+
+Delivery
+
+Day 25–26: Mock LLD Interviews
+
+Pick random:
+
+Parking lot
+
+Elevator
+
+Splitwise
+
+Explain without notes.
+
+Day 27–28: UML Practice + Code Cleanup
+Day 29–30: Final Revision
+
+Prepare:
+
+3 best designs
+
+Pattern cheat sheet
+
+Talking points
