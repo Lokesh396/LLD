@@ -5,6 +5,11 @@ At its core, an interface is a contract: a list of methods that any implementing
 It specifies a set of behaviors that a class agrees to implement but leaves the details of those
 behaviors up to each implementation.
 
+Benfits of Interfaces.
+Services were decoupled.
+service is dependent on Interfaces rather than Implementing Classes, we can add more implementing classes with out
+modifying the strucure.
+
 """
 
 from abc  import ABC, abstractmethod
