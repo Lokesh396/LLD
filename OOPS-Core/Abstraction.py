@@ -12,7 +12,8 @@ class Vehicle(ABC):
     def start(self):
         pass
 
-
+    def stop(self):
+        print(f'Turning off {self.model}')
 class Car(Vehicle):
     
     def start(self):
@@ -24,3 +25,5 @@ class Tractor(Vehicle):
 
 tractor = Tractor('massey fergusion', '241')
 car = Car('Tata nexon', 'revtron 1.2')
+car.start()
+car.stop()

@@ -16,21 +16,20 @@ from abc  import ABC, abstractmethod
 
 class PaymentSerive(ABC):
 
-    def __init__(self,processor_name):
-        self.processer_name = processor_name
-
     @abstractmethod
     def process_payment(self):
         pass
 
 class phonepeProvider(PaymentSerive):
-
+    def __init__(self, processor_name):
+        self.processor_name = processor_name
     def process_payment(self):
         print(f'payment is processing through {self.processer_name}')
 
 
 class razorPayProvider(PaymentSerive):
-    
+    def __init__(self, processor_name):
+        self.processor_name = processor_name
     def process_payment(self):
         print('Initializing razor pay')
         print(f'payment is processing through {self.processer_name}')
