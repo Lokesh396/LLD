@@ -1,0 +1,24 @@
+site_name: LLD Practice
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+  features:
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: .
+
+nav:
+  - Home: index.md
+  - OOPS CORE: classes.md
+  - OOPS Excercise: classes-excercise.md
+  - Class Relationships: classrelationships.md
+  - Class Relationships Excercise: classrelationships-excercise.md
