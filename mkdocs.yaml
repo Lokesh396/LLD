@@ -7,6 +7,10 @@ theme:
   features:
     - content.code.copy
 
+plugins:
+  - search
+  - drawio
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -24,3 +28,8 @@ nav:
   - Class Relationships Excercise: classrelationships-excercise.md
   - SOLID Principles: solid.md
   - SOLID Exercises: solid-excercise.md
+  - UML Diagrams:
+    - Class Diagram: uml-class-diagram.md
+    - Sequence Diagram: uml-sequence-diagram.md
+    - Activity Diagram: uml-activity-diagram.md
+    - Use Case Diagram: uml-usecase-diagram.md

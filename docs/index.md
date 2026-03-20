@@ -12,4 +12,8 @@ A personal LLD problem-solving journal — organized by topic, built for revisio
 | [Class Relationships Excercise](classrelationships-excercise.md) | Association · Aggregation · Composition · Dependency · Realization |
 | [SOLID Principles](solid.md) | SRP · OCP · LSP · ISP · DIP |
 | [SOLID Exercises](solid-excercise.md) | SRP · OCP · LSP · ISP · DIP |
+| [UML — Class Diagram](uml-class-diagram.md) | Classes · Attributes · Methods · Relationships |
+| [UML — Sequence Diagram](uml-sequence-diagram.md) | Lifelines · Messages · Activation · Fragments |
+| [UML — Activity Diagram](uml-activity-diagram.md) | Flow · Decisions · Fork/Join · Swimlanes |
+| [UML — Use Case Diagram](uml-usecase-diagram.md) | Actors · Use Cases · Include · Extend |
 
