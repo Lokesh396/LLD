@@ -1,5 +1,14 @@
 /* Fix drawio diagrams drawn on white canvas in dark theme */
-.drawio-diagram {
+.drawio-diagram,
+.drawio-diagram svg {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 8px;
+  display: inline-block;
+}
+
+
+svg {
   background: #ffffff;
   border-radius: 6px;
   padding: 8px;
