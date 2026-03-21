@@ -1,0 +1,7 @@
+/* Fix drawio diagrams drawn on white canvas in dark theme */
+.drawio-diagram {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 8px;
+  display: inline-block;
+}

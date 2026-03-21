@@ -7,6 +7,9 @@ theme:
   features:
     - content.code.copy
 
+extra_css:
+  - css/extra.css
+
 plugins:
   - search
   - drawio
@@ -33,3 +36,4 @@ nav:
     - Sequence Diagram: uml-sequence-diagram.md
     - Activity Diagram: uml-activity-diagram.md
     - Use Case Diagram: uml-usecase-diagram.md
+    - State Diagram: uml-state-diagram.md
