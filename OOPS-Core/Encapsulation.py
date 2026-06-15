@@ -62,5 +62,6 @@ print(account._getmoney())
 product = Product('MSI Katana', 1000)
 
 print(product.price)
+print(product.name)
 product.price = 100
 print(product.price)
