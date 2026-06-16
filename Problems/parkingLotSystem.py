@@ -7,9 +7,9 @@ from abc import ABC, abstractmethod
 from typing import List
 
 class VehicleSize(Enum):
-    SMALL = 'SMALL'
-    MEDIUM = 'MEDIUM'
-    LARGE = 'LARGE'
+    SMALL = 1
+    MEDIUM = 2
+    LARGE = 3
 
 class Vehicle:
 

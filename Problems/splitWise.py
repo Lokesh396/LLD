@@ -2,6 +2,7 @@ import uuid
 from abc import ABC, abstractmethod
 from collections import defaultdict
 import threading
+import math
 class User:
 
     def __init__(self, name:str, email:str):
@@ -36,7 +37,7 @@ class PercentSplit(SplitStrategy):
 
     def calaculate_splits(self, amount,  participants, splits):
         total_percent = sum(splits.values())
-        if total_percent != 100:
+        if not math.isclose(total_percent, 100):
             raise ValueError('Invalid Splits')
         return [Split(u, (amount * v)/100) for u,v in splits.items()]
 
@@ -44,7 +45,7 @@ class ExactSplit(SplitStrategy):
     
    def calaculate_splits(self, amount,  participants, splits):
        total_amount = sum(splits.values())
-       if total_amount != amount:
+       if not math.isclose(total_amount, amount):
            raise ValueError('Invalid Splits')
        return [Split(u, v) for u,v in splits.items()]
    
